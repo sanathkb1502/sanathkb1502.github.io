@@ -42,10 +42,10 @@
         <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
         <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
         <!-- <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a>
+        </li> -->
+        <!-- <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Endorsements</span></a> -->
         </li>
-        <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Endorsements</span></a>
-        </li>
-        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li> -->
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
       </ul>
     </nav>
 
@@ -138,11 +138,11 @@
     });
   });
 
-  // $(document).ready(function () {
-  //   $.get('./sections/resume.html', function (data) {
-  //     $('#resume-container').html(data);
-  //   });
-  // });
+  $(document).ready(function () {
+    $.get('./sections/resume.html', function (data) {
+      $('#resume-container').html(data);
+    });
+  });
 
   // $(document).ready(function () {
   //   $.get('./sections/testimonials.html', function (data) {
@@ -150,17 +150,17 @@
   //   });
   // });
 
-  // $(document).ready(function () {
-  //   $.get('./sections/contact.html', function (data) {
-  //     $('#contact-container').html(data);
-  //   });
-  // });
+  $(document).ready(function () {
+    $.get('./sections/contact.html', function (data) {
+      $('#contact-container').html(data);
+    });
+  });
 
-  // $(document).ready(function () {
-  //   $.get('./sections/footer.html', function (data) {
-  //     $('#footer-container').html(data);
-  //   });
-  // });
+  $(document).ready(function () {
+    $.get('./sections/footer.html', function (data) {
+      $('#footer-container').html(data);
+    });
+  });
 
 
 </script>
